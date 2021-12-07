@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Dojo Gaming</title>
+        <link rel="stylesheet" type="text/css" href="dojo-gaming.css">
+    </head>
+    <body>
+        <div class="purple-bar">0
+        </div>
+        <div class="nav-bar">
+            <div class="nav-organize">
+                <div class="title">
+                    <h1>Gaming <span class="dojo">Dojo</span></h1>
+                </div>
+                <div class="check-out">
+                    <div class="check-organization">
+                        <select name="currency" class="currency" id="currency">
+                            <option value="pounds">Pounds £</option>
+                            <option value="euro">Euro €</option>
+                            <option value="usd">USD $</option>
+                        </select>
+                        <img src="cart-light.png" alt="shopping cart" class="shopping"><span class="count" id="count"><u>0</u></span>
+                        <img src="search-light.png" alt="search" class="search">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-picture">
+            <div class="highlights">
+                <h3>Highlights</h3>
+            </div>
+            <div class="main-image">
+                <img src="chevron-left.png" alt="chevron left" class="chevron-left" id="changer2" onclick="changeimage1(this)">
+                <img src="stonepunk.png" alt="stonepunk image" class="stonepunk" id="stonepunk">
+                <img src="chevron-right.png" alt="chevron right" class="chevron-right" id="changer" onclick="changeimage(this)">
+            </div>
+            <div class="bars">
+                <table>
+                    <tr>
+                        <td id="one"></td><td id="two"></td><td id="three"></td><td id="four"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="bottom-pictures">
+            <div class="bottom-organization">
+                <div class="box1">
+                    <div class="cafe">
+                        <img src="cafe-neko.png" alt="cafe neko" class="cafe-neko" id="cafe-neko">
+                    </div>
+                    <div class="cafe-edition">
+                        <h2 class="gold-edition">Cafe Neko: Gold Edition</h2>
+                        <img src="windows.png" alt="Windows" class="windows"><img src="apple.png" alt="apple" class="apple">
+                    </div>
+                    <div class="buy-organization">
+                        <div class="cafe-buy">
+                            <h3 class="discount">-20%</h3>
+                        </div>
+                        <div class="money-organization">
+                            <div class="money">
+                                <p class="cross">€14.98</p>
+                                <p class="price">€10.49</p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <button class="button" onclick="plusOne(this)">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box2">
+                    <div class="cafe">
+                        <img src="pixel-ninjas-2.png" alt="Pixel Ninjas 2" class="pixel-ninjas-2">
+                    </div>
+                    <div class="cafe-edition">
+                        <h2 class="gold-edition">Pixel Ninjas 2</h2>
+                        <img src="windows.png" alt="Windows" class="windows"><img src="apple.png" alt="apple" class="apple">
+                    </div>
+                    <div class="buy-organization">
+                        <div class="cafe-buy">
+                            <h3 class="discount">-10%</h3>
+                        </div>
+                        <div class="money-organization">
+                            <div class="money">
+                                <p class="cross">€8.19</p>
+                                <p class="price">€7.39</p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <button class="button" onclick="plusOne(this)">Buy</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="cafe">
+                        <img src="stonepunk.png" alt="Stonepunk">
+                    </div>
+                    <div class="cafe-edition">
+                        <h2 class="gold-edition">Stonepunk 10000 BCE</h2>
+                        <img src="windows.png" alt="Windows" class="windows"><img src="apple.png" alt="apple" class="apple"><img src="linux.png" alt="Linux" onclick="alert('This game is supported on Linux')" class="linux" >
+                    </div>
+                    <div class="buy-organization">
+                        <div class="cafe-buy">
+                            <h3 class="discount">New</h3>
+                        </div>
+                        <div class="money-organization">
+                            <div class="money">
+                                <p class="price">€19.99</p>
+                            </div>
+                        </div>
+                        <div class="buy">
+                            <button class="button" onclick="plusOne(this)">Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="dojo-gaming.js"></script>
+    </body>
+</html>
+
